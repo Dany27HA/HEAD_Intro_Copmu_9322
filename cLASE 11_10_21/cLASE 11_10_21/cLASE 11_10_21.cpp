@@ -2,6 +2,16 @@
 #include <iostream>
 #include <stdio.h>
 
+//Funcion
+int SumaDatos(int a, int b)
+{
+
+    int resultado;
+    resultado = a + b;
+
+    return resultado;
+}
+
 int main(int argc, char** argv)
 {
     //Suma de dos numeros, pedidos por el teclado
@@ -22,7 +32,7 @@ int main(int argc, char** argv)
 
     //operacion
 
-    iResultado = iDato1 + iDato2;
+    iResultado =SumaDatos(iDato1, iDato2);
 
     //Imprimir resultado
     printf("El resultado de la suma es: %d", iResultado);
